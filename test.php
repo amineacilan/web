@@ -7,6 +7,7 @@
        <input type="text"  name="firmasi" value="" placeholder="firma giriniz"/><br>
        <input type="number" name="tel_num" value="" placeholder="telefon numarasi giriniz"/>
        <input type="submit" name="submit" value="ekle"/> 
+       <input type="reset">
        <button type="button" class="btn btn-primary">ekle</button>
         <br>
        </form>
