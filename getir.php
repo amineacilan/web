@@ -1,6 +1,6 @@
 <?php
  include 'conn.php';
- // include 'ekle.php'
+
 
 $sql="SELECT * FROM musteriler";
   //  echo $sql;
@@ -16,7 +16,5 @@ while($row= mysql_fetch_array($result))
    // $xyz=$row['Telefon'];
 echo $row['Adi'] . '---' .$row['Soyadi'] .'---'."   ".$row['Firmasi'] . '---'.$row['Telefon'] . '---'. "<a href='sil.php?No=$id'>SIL</a>"."   "."<a href='guncelle_form.php?No=$id'>GUNCELLE</a><br>";
 }
-
-
 
 ?>

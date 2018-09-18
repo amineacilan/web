@@ -1,0 +1,139 @@
+{
+  "ftp://192.168.1.111@mrrobot": {
+    "amine": {
+      ".gitattributes": {
+        "type": "-",
+        "size": 66,
+        "lmtime": 1536747602178,
+        "modified": false
+      },
+      "aa": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1536044664338,
+        "modified": false
+      },
+      "aaa": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1536044638299,
+        "modified": false
+      },
+      "cagri_kayit.php": {
+        "type": "-",
+        "size": 1930,
+        "lmtime": 1537188029918,
+        "modified": false
+      },
+      "conn.php": {
+        "type": "-",
+        "size": 1330,
+        "lmtime": 1537180367544,
+        "modified": false
+      },
+      "deneme.php": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1536153493335,
+        "modified": false
+      },
+      "deneme2.php": {
+        "type": "-",
+        "size": 486,
+        "lmtime": 1536930602894,
+        "modified": false
+      },
+      "ekle.php": {
+        "type": "-",
+        "size": 699,
+        "lmtime": 1536306989300,
+        "modified": false
+      },
+      "footer.php": {
+        "type": "-",
+        "size": 21,
+        "lmtime": 1536311121385,
+        "modified": false
+      },
+      "getir.php": {
+        "type": "-",
+        "size": 549,
+        "lmtime": 1537183683473,
+        "modified": false
+      },
+      "guncelle.php": {
+        "type": "-",
+        "size": 638,
+        "lmtime": 1536307091968,
+        "modified": false
+      },
+      "guncelle_form.php": {
+        "type": "-",
+        "size": 1252,
+        "lmtime": 1536307128108,
+        "modified": false
+      },
+      "güncelle.php": {
+        "type": "-",
+        "size": 63,
+        "lmtime": 1536230814142,
+        "modified": false
+      },
+      "güncelle_form.php": {
+        "type": "-",
+        "size": 571,
+        "lmtime": 1536215917051,
+        "modified": false
+      },
+      "header.php": {
+        "type": "-",
+        "size": 1064,
+        "lmtime": 1537248375315,
+        "modified": false
+      },
+      "kyt_getir.php": {
+        "type": "-",
+        "size": 1353,
+        "lmtime": 1537188845909,
+        "modified": true
+      },
+      "kyt_goster.php": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1537181608294,
+        "modified": false
+      },
+      "kyt_göster.php": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 1537181607731,
+        "modified": false
+      },
+      "README.md": {
+        "type": "-",
+        "size": 27,
+        "lmtime": 1536748048475,
+        "modified": false
+      },
+      "sil.php": {
+        "type": "-",
+        "size": 473,
+        "lmtime": 1536304850176,
+        "modified": false
+      },
+      "test.php": {
+        "type": "-",
+        "size": 730,
+        "lmtime": 1537181612200,
+        "modified": false
+      },
+      "tx_cagri_kayit.php": {
+        "type": "-",
+        "size": 789,
+        "lmtime": 1537188030712,
+        "modified": false
+      }
+    }
+  },
+  "$version": 1
+}
