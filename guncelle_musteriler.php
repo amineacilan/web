@@ -27,7 +27,7 @@ $tel=$_POST["tel_num"];
      echo "Bir Sorun Olustu ";
  }
 
- header('Location:test.php');
+ header('Location:index.php');
 
 
 ?>

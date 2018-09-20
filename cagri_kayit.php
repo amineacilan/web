@@ -1,15 +1,21 @@
-<?php include 'header.php';
-include 'conn.php';
+ 
+    <?php
+    include 'inc/header.php';
+    include 'inc/conn.php';
+   
+    $musteriler = mysql_query("SELECT `No`,Adi,Soyadi,Firmasi,Telefon FROM musteriler");
+    ?>
+        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
 
-$musteriler = mysql_query("SELECT `No`,Adi,Soyadi,Firmasi,Telefon FROM musteriler");
-?> 
 <form id="form1" name="cagri_kayit" method="get" action="tx_cagri_kayit.php"> 
   <label> 
-   musteri seçiniz:
+  MÜŞTERİ SEÇİNİZ:
   <select name="musteri" id="musteri" > 
    <option value="">Önce müşteri seçiniz></option>
 
 <?php  //tx_cagri_kayit.php
+
 while ($row2 = mysql_fetch_array($musteriler)) {
   $id2 = $row2['No'];
   $Adi2 = $row2['Adi'];
@@ -24,19 +30,21 @@ while ($row2 = mysql_fetch_array($musteriler)) {
 ?> 
     </select> 
   </label> <br>
-  Cihaz No :&nbsp;   <input type="text"  name="cihaz_no" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="cihaz numarası giriniz"/><br>
-    Arama Nedeni :&nbsp; <input type="text"  name="arama_nedeni" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="arama nedenini giriniz"/><br>
-    Yapılan İşlemler : &nbsp; <input type="text"  name="yapilan_islemler" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="yapılan işlem giriniz"/><br>
-    Tamamlanma Durumu :&nbsp; <input type="text"  name="tamamlanma_drm" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="tamamlanma durumunu giriniz"/><br>
+  CİHAZ NO :&nbsp;   <input type="text"  name="cihaz_no" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Cihaz Numarası Giriniz"/><br>
+    ARAMA NEDENİ:&nbsp; <input type="text"  name="arama_nedeni" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Arama Nedenini Giriniz"/><br>
+    YAPILAN İŞLEMLER : &nbsp; <input type="text"  name="yapilan_islemler" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Yapılan İşlem Giriniz"/><br>
+    TAMAMLANMA DURUMU :&nbsp; <input type="text"  name="tamamlanma_drm" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Tamamlanma Durumunu Giriniz"/><br>
     <input type="submit" name="submit" value="Kayıt Ekle"/> 
 </form>
 
 <form name="form2" method="get" action="kyt_getir.php">
-<input type="submit" name="submit2" value="Kayıtları Göster"/> 
+<button type="submit" class="tb5"  >göster</button>
+
+<button type="submit" class="btn1"  >Success</button>
 </form>
 
  <?php 
-
+//<input type="submit" name="submit2" value="Kayıtları Göster"/> 
 
 $id = $_GET['No'];
 
@@ -46,20 +54,6 @@ $yaz = mysql_fetch_assoc($sor);
 //echo "$Adi2";
 ?>
 
-<html>
-
-<head>
-<style> 
-.txtbox100{ 
-font-family:Verdana; 
-font-size:12px; 
-width:220px; 
-} 
-</style> 
-</head>
-
-<body>
-   
-
-</body>
-</html>
+<?php 
+include 'inc/footer.php';
+?>

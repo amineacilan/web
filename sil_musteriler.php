@@ -12,7 +12,7 @@ $id=$_GET['No'];
 $abc=$_GET['isim'];
 
 $sql = "DELETE FROM musteriler WHERE No=$id";
-//echo $sql;
+echo $sql;
 $sil = mysql_query($sql,$baglanti);      
 
 if($sil){
@@ -21,6 +21,6 @@ if($sil){
     echo "Bir Sorun Olustu";
 }
 // Sorun Oluştu mu diye test edelim. Eğer sorun yoksa hata vermeyecektir
-header('Location:test.php');
+header('Location:index.php');
 
 ?>

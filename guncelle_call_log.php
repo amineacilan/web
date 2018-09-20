@@ -17,8 +17,8 @@ $tamamlanma_durumu=$_GET["tamamlanma_durumu"];
 var_dump($id,$musteri_id,$cihaz_no,$arama_nedeni,$yapilan_islem,$tamamlanma_durumu);
 
  $sql="UPDATE call_log SET cihaz_no='$cihaz_no', arama_nedeni='$arama_nedeni', yapilan_islem='$yapilan_islem', tamamlanma_durumu=$tamamlanma_durumu WHERE id=$id";
-
      echo $sql;
+     
  $guncelle2 = mysql_query($sql,$baglanti);
     var_dump($guncelle2,$baglanti);     
  

@@ -6,7 +6,7 @@
  include 'conn.php';
 
 $id=$_GET['No'];
-
+//echo $id;
 $sor=mysql_query("SELECT * FROM musteriler WHERE No=$id"); 
 //echo $sor;
 $yaz = mysql_fetch_assoc($sor); 
@@ -28,7 +28,7 @@ echo "SECMIS OLDUGUNUZ KISI BILGILERI : " , $uyeAd ,'---' , $uyeSoyad,'---' , $u
     </head>
     <body>
        
-       <form action="guncelle.php" method= "POST">
+       <form action="guncelle_musteriler.php" method= "POST">
         <input type="hidden" name="id" value="<?php echo $uyeid ?>">
        <input type="text"  name="isim" value="<?php echo $uyeAd ?>" placeholder="guncellenecek isim giriniz"/><br>
        <input type="text"  name="soyisim" value="<?php echo $uyeSoyad ?>" placeholder="guncellenecek soyisim giriniz"/><br>
