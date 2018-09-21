@@ -38,11 +38,33 @@
     position:relative;
     top:1px;
     }
-
+    
     /* Rounded Corner */
 .tb5 {
 	border:2px solid #456879;
 	border-radius:10px;
 	height: 22px;
 	width: 230px;
+}
+body { background-image: url('netvar_logo.jpg') repeat right- top; }
+
+.right
+   {
+      float: right;
+      background-color:#b0e0e6;
+   }
+   
+/*textbox1*/
+.style1
+{
+border: none;
+border-bottom-style: solid;
+border-bottom-width: 3px;
+border-color: #f30404;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }

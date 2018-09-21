@@ -1,4 +1,4 @@
-<!doctype html>
+
 <!--
   Material Design Lite
   Copyright 2015 Google Inc. All rights reserved.
@@ -60,11 +60,13 @@
     }
     </style>
   </head>
-  <body>
+ 
+  <body background="images/call_center.png">
+  
   <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
       <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Home</span>
+          <span class="mdl-layout-title">GRUP ARGE - NETVAR</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
@@ -80,14 +82,13 @@
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
             <li class="mdl-menu__item">About</li>
-            <li class="mdl-menu__item">Contact</li>
             <li class="mdl-menu__item">Legal information</li>
           </ul>
         </div>
       </header>
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
-          <img src="images/netvar_logo.jpg" class="demo-avatar">
+          <img src="images/netvar_logo.jpg" class="demo-avatar" shape="square">
           <div class="demo-avatar-dropdown">
             <span>hello@gruparge.com</span>
             <div class="mdl-layout-spacer"></div>
@@ -113,4 +114,4 @@
         </nav>
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-grid demo-content">
+        <div class="mdl-grid demo-content" background="images/call_center.png">

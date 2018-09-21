@@ -2,17 +2,27 @@
     <?php
     include 'inc/header.php';
     include 'inc/conn.php';
-   
+
     $musteriler = mysql_query("SELECT `No`,Adi,Soyadi,Firmasi,Telefon FROM musteriler");
-    ?>
+    ?><link href="btn.css" type="text/css" rel="stylesheet"/>
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell">
+              
+            </div>
+            
+        </div>
+       
+      </div>
         <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
   <thead>
 
 <form id="form1" name="cagri_kayit" method="get" action="tx_cagri_kayit.php"> 
   <label> 
-  MÜŞTERİ SEÇİNİZ:
-  <select name="musteri" id="musteri" > 
-   <option value="">Önce müşteri seçiniz></option>
+  &nbsp; MÜŞTERİ SEÇİNİZ:
+  <select name="musteri" id="musteri" style="width:500px; display:block;" > 
+   <option value="">Önce müşteri seçiniz></option>&nbsp;
 
 <?php  //tx_cagri_kayit.php
 
@@ -26,21 +36,38 @@ while ($row2 = mysql_fetch_array($musteriler)) {
   <option value="<?= $id2 ?>"><?= $id2 ?>-><?= $Adi2 ?>-><?= $Soyadi2 ?>-><?= $Firmasi2 ?>-><?= $Telefon2 ?>  </option> 
 <?
 }
-
+//<div class="clearfix">  </div>
 ?> 
+
     </select> 
-  </label> <br>
-  CİHAZ NO :&nbsp;   <input type="text"  name="cihaz_no" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Cihaz Numarası Giriniz"/><br>
-    ARAMA NEDENİ:&nbsp; <input type="text"  name="arama_nedeni" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Arama Nedenini Giriniz"/><br>
-    YAPILAN İŞLEMLER : &nbsp; <input type="text"  name="yapilan_islemler" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Yapılan İşlem Giriniz"/><br>
-    TAMAMLANMA DURUMU :&nbsp; <input type="text"  name="tamamlanma_drm" class="txtbox100" value="<?php echo $uyeAd ?>" placeholder="Tamamlanma Durumunu Giriniz"/><br>
-    <input type="submit" name="submit" value="Kayıt Ekle"/> 
+    <div class="mdl-layout">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> 
+      <input class="mdl-textfield__input" type="text" id="sample3" name="cihaz_no" value="<?php echo $uyeAd ?>" size="40">
+      <label class="mdl-textfield__label" for="sample3">CİHAZ NO...</label>    
+      </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> 
+      <input class="mdl-textfield__input" type="text" id="sample3" name="arama_nedeni" value="<?php echo $uyeAd ?>" size="40">
+      <label class="mdl-textfield__label" for="sample3">ARAMA NEDENİ...</label>    
+      </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> 
+      <input class="mdl-textfield__input" type="text" id="sample3" name="yapilan_islemler" value="<?php echo $uyeAd ?>" size="40" >
+      <label class="mdl-textfield__label" for="sample3">YAPILAN İŞLEMLER...</label>    
+      </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> 
+      <input class="mdl-textfield__input" type="text" id="sample3" name="tamamlanma_drm" value="<?php echo $uyeAd ?>" size="40">
+      <label class="mdl-textfield__label" for="sample3">TAMAMLANMA DURUMU...</label>    
+      </div>
+    
+  <input type="submit" name="submit" class="mdl-button mdl-js-button mdl-js-ripple-effect" value="KAYIT EKLE"/> 
+  
 </form>
 
 <form name="form2" method="get" action="kyt_getir.php">
-<button type="submit" class="tb5"  >göster</button>
+<button type="submit" class="mdl-button mdl-js-button mdl-js-ripple-effect"  >GÖSTER</button>
+&nbsp;
 
-<button type="submit" class="btn1"  >Success</button>
+</div>
+
 </form>
 
  <?php 

@@ -5,7 +5,6 @@ include "inc/header.php";
 ?>
 
 <?php
-echo "ADRES:;
  ?>
 
 
