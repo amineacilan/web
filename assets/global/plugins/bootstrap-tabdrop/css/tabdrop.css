@@ -1,0 +1,88 @@
+/*!
+ * Tab drop for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+.nav-tabs,
+.nav-pills {
+  position: relative;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.tabbable-tabdrop > .nav-tabs > li.active {
+  border-top: 3px solid #f3565d;
+  margin-top: 0;
+  position: relative;
+}
+
+.nav-tabs>li>a {
+  margin-right: 0px;
+  padding: 15px 25px 15px 25px;
+}
+
+.tabbable-tabdrop > .tab-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.tabbable-tabdrop > .tab-content {
+  padding: 10px;
+}
+
+.dropdown>.dropdown-menu {
+  margin-top: 10px;
+}
+
+.tabbable-tabdrop .dropdown-menu:before {
+  right: 9px;
+  left: auto;
+}
+
+.nav-pills>li .dropdown-menu:after, .nav-pills>li .dropdown-menu:before, .nav-tabs>li .dropdown-menu:after, .nav-tabs>li .dropdown-menu:before {
+  display: none;
+}
+
+.nav-pills>li .dropdown-menu:after, .nav-pills>li .dropdown-menu:before, .nav-tabs>li .dropdown-menu:after, .nav-tabs>li .dropdown-menu:before {
+  display: none;
+}
+.tabbable-tabdrop .dropdown-menu:before {
+  right: 9px;
+  left: auto;
+}
+
+.btn-group>.dropdown-menu:before, .dropdown-toggle>.dropdown-menu:before, .dropdown>.dropdown-menu:before {
+  position: absolute;
+  top: -8px;
+  display: inline-block!important;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #e0e0e0;
+  border-left: 8px solid transparent;
+  content: '';
+}
+
+.btn-group>.dropdown-menu:after, .dropdown-toggle>.dropdown-menu:after, .dropdown>.dropdown-menu:after {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  right: auto;
+  display: inline-block!important;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+  border-left: 7px solid transparent;
+  content: '';
+}
+
+.tabbable-tabdrop .dropdown-menu:after {
+  right: 10px;
+  left: auto;
+}
+
+.nav>li>a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #0B94EA;
+}

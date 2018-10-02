@@ -1,0 +1,19 @@
+﻿{
+  "sEmptyTable":      "<h2 style='color: red;'>Tabloda Veri Yok!</h2>",
+  "sInfo":            "_TOTAL_ Kayıttan _START_ - _END_ Arası Kayıtlar",
+  "sInfoEmpty":       "<b>Kayıt Yok</b>",
+  "sInfoFiltered":    "(_MAX_ Kayıt İçinde Bulunan)",
+  "sInfoPostFix":     "",
+  "sInfoThousands":   ",",
+  "sLengthMenu":      "Sayfada _MENU_ Kayıt Göster",
+  "sLoadingRecords":  "Yükleniyor...",  
+  "sProcessing":      "İşleniyor...",
+  "sSearch":          "Bul: ",
+  "sZeroRecords":     "<h2 style='color: red;'>Eşleşen Kayıt Bulunamadı!</h2>",
+  "oPaginate": {
+      "sFirst":    "İlk",
+      "sPrevious": "Önceki",
+      "sNext":     "Sonraki",
+      "sLast":     "Son"
+  }
+}

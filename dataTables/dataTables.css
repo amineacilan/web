@@ -1,0 +1,194 @@
+td.columnLeftAlign
+{
+  text-align: left;
+}
+
+td.columnRightAlign
+{
+  text-align: right;
+}
+
+td.columnCenterAlign
+{
+  text-align: center;
+}
+
+.link_icon
+{
+  text-decoration: none;
+  border: 2px solid transparent;
+  margin: 3px;
+  width: 28px;
+  height: 28px;
+}
+
+.link_icon:hover
+{
+  border-color: #4682b4;
+}
+
+.table_bordered
+{
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  border-radius: 4px;
+}
+
+.th_td_border
+{
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.reactiveRatio
+{
+}
+
+.reactiveRatioWarning
+{
+  color: red;
+  font-weight: bold;
+}
+
+.noDataWarning
+{
+  color: #f82a79;
+  font-weight: bold;
+}
+
+.noTimeDecrease
+{
+  color: red;
+  font-weight: bold;
+}
+
+.tooltipX
+{
+  color: #11f79f;
+}
+
+.warning_button
+{
+  background-color: #378de5;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 5px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 3px 12px;
+  margin-right: 10px;
+  width: 72px;
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+
+.warning_button:hover
+{
+  background-color: #79bbff;
+}
+
+.warning_button:active
+{
+  position: relative;
+  top: 1px;
+}
+
+.warning_button:disabled
+{
+  background-color: #ddd;
+  position: relative;
+  top: 0px;
+  color: GrayText;
+}
+
+.select_user {
+  padding:3px;
+  height: 40px;
+  margin: .5em .4em 0 0;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;
+  border: 1px solid #fff;
+  outline:none;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.tdfield_long
+{
+  width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tdfield_short
+{
+  width: 75px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table>tbody>tr>td
+{
+  vertical-align: baseline !important;
+}
+
+.colorInfo
+{
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.divInfo
+{
+  margin: 0px 10px 0px 0px;
+}
+
+.color_info_warning
+{
+  background-color: #fcf8e3;
+  width: 16px;
+  height: 16px;
+  float: right;
+  border: 1px solid #dcbd18;
+}
+
+.color_info_danger
+{
+  background-color: #f2dede;
+  width: 16px;
+  height: 16px;
+  float: right;
+  border: 1px solid #bb5151;
+}
+.color_info_success
+{
+  background-color: #28a745;
+  width: 16px;
+  height: 16px;
+  float: right;
+  border: 1px solid #28a7456e;
+}
+.color_info_gray
+{
+  background:#D0D0D0 !important;
+  width: 16px;
+  height: 16px;
+  float: right;
+  border: 1px solid #007bff75;
+}
+.infoText
+{
+  font-size: 12px;
+  float: right;
+  padding-right: 10px;
+}

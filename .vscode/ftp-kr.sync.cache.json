@@ -1,5 +1,52 @@
 {
   "ftp://192.168.1.111@mrrobot": {
+    ".gitignore": {
+      "type": "-",
+      "size": 19,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".htaccess": {  
+      "type": "-",
+      "size": 1760, 
+      "lmtime": 0,
+      "modified": false
+    },
+    ".idea": {},
+    ".vscode": {},
+    "accountTransac.php": {
+      "type": "-",
+      "size": 13920,
+      "lmtime": 0,
+      "modified": false
+    },
+    "addSubcribers.php": {
+      "type": "-",
+      "size": 16716,
+      "lmtime": 0,
+      "modified": false
+    },
+    "addVirtualMeasurePoint.php": {
+      "type": "-",
+      "size": 9157,
+      "lmtime": 0,
+      "modified": false
+    },
+    "admin": {},
+    "admin_logs.php": {
+      "type": "-",
+      "size": 2115,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ajax": {},
+    "alarm": {},
+    "alarmSilence.php": {
+      "type": "-",
+      "size": 1530,
+      "lmtime": 0,
+      "modified": false
+    },
     "amine": {
       ".gitattributes": {
         "type": "-",
@@ -133,7 +180,1221 @@
         "lmtime": 1537188030712,
         "modified": false
       }
-    }
+    },
+    "arazi": {},
+    "aski": {},
+    "assets": {},
+    "assets_v4.7.5": {},
+    "bill": {},
+    "bill.php": {
+      "type": "-",
+      "size": 20883,
+      "lmtime": 0,
+      "modified": false
+    },
+    "billHistory.php": {
+      "type": "-",
+      "size": 796,
+      "lmtime": 0,
+      "modified": false
+    },
+    "buy.php": {
+      "type": "-",
+      "size": 37811,
+      "lmtime": 0,
+      "modified": false
+    },
+    "capp": {},
+    "comparison": {},
+    "comparisonGraph.php": {
+      "type": "-",
+      "size": 2429,
+      "lmtime": 0,
+      "modified": false
+    },
+    "construction.php": {
+      "type": "-",
+      "size": 1303,
+      "lmtime": 0,
+      "modified": false
+    },
+    "consumption": {},
+    "consumptionExportReport.php": {
+      "type": "-",
+      "size": 51790,
+      "lmtime": 0,
+      "modified": false
+    },
+    "consumptionReport.php": {
+      "type": "-",
+      "size": 52048,
+      "lmtime": 0,
+      "modified": false
+    },
+    "contact.php": {
+      "type": "-",
+      "size": 3250,
+      "lmtime": 0,
+      "modified": false
+    },
+    "control": {},
+    "control.php": {
+      "type": "-",
+      "size": 274358,
+      "lmtime": 0,
+      "modified": false
+    },
+    "createUser.php": {
+      "type": "-",
+      "size": 20566,
+      "lmtime": 0,
+      "modified": false
+    },
+    "create_pdf.php": {
+      "type": "-",
+      "size": 2638,
+      "lmtime": 0,
+      "modified": false
+    },
+    "css": {},
+    "customize": {},
+    "data.php": {
+      "type": "-",
+      "size": 37424,
+      "lmtime": 0,
+      "modified": false
+    },
+    "dataTables": {},
+    "db": {},
+    "debug.php": {
+      "type": "-",
+      "size": 37571,
+      "lmtime": 0,
+      "modified": false
+    },
+    "delayedDeviceAlertMail.php": {
+      "type": "-",
+      "size": 9938,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deletedDevice.php": {
+      "type": "-",
+      "size": 5521,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deleteSubcriber.php": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deleteSubcribers.php": {
+      "type": "-",
+      "size": 622,
+      "lmtime": 0,
+      "modified": false
+    },
+    "demoLogin": {},
+    "DesktopApp": {},
+    "deviceComparisonGraph.php": {
+      "type": "-",
+      "size": 6899,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deviceConsumption.php": {
+      "type": "-",
+      "size": 60414,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deviceSettings.php": {
+      "type": "-",
+      "size": 88036,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deviceSettings2.php": {
+      "type": "-",
+      "size": 89569,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deviceSettingsD.php": {
+      "type": "-",
+      "size": 16123,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deviceSettings_asat.php": {
+      "type": "-",
+      "size": 80536,
+      "lmtime": 0,
+      "modified": false
+    },
+    "deviceTypeList.php": {
+      "type": "-",
+      "size": 8224,
+      "lmtime": 0,
+      "modified": false
+    },
+    "device_json.php": {
+      "type": "-",
+      "size": 1011,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ems": {},
+    "errorPage.php": {
+      "type": "-",
+      "size": 795,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ertegun": {},
+    "excel_format.php": {
+      "type": "-",
+      "size": 8363,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export": {},
+    "exportAllBillInfo.php": {
+      "type": "-",
+      "size": 8490,
+      "lmtime": 0,
+      "modified": false
+    },
+    "exportBillInfo.php": {
+      "type": "-",
+      "size": 15903,
+      "lmtime": 0,
+      "modified": false
+    },
+    "exportFiles": {},
+    "exportMeterInfo.php": {
+      "type": "-",
+      "size": 14341,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export_deviceComparisonGraph.php": {
+      "type": "-",
+      "size": 5798,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export_graph.php": {
+      "type": "-",
+      "size": 55508,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export_heatMap.php": {
+      "type": "-",
+      "size": 28799,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export_index_data.php": {
+      "type": "-",
+      "size": 33208,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export_manual_data.php": {
+      "type": "-",
+      "size": 13135,
+      "lmtime": 0,
+      "modified": false
+    },
+    "export_report.php": {
+      "type": "-",
+      "size": 40219,
+      "lmtime": 0,
+      "modified": false
+    },
+    "Fatura": {},
+    "faturatakibi": {},
+    "favicon.ico": {
+      "type": "-",
+      "size": 1150,
+      "lmtime": 0,
+      "modified": false
+    },
+    "flow": {},
+    "func_AccountTransac.php": {
+      "type": "-",
+      "size": 4016,
+      "lmtime": 0,
+      "modified": false
+    },
+    "func_adminAccountTransac.php": {
+      "type": "-",
+      "size": 5840,
+      "lmtime": 0,
+      "modified": false
+    },
+    "func_postAccountTransac.php": {
+      "type": "-",
+      "size": 4024,
+      "lmtime": 0,
+      "modified": false
+    },
+    "func_updateCommDeviceSettings.php": {
+      "type": "-",
+      "size": 7671,
+      "lmtime": 0,
+      "modified": false
+    },
+    "func_userList.php": {
+      "type": "-",
+      "size": 4311,
+      "lmtime": 0,
+      "modified": false
+    },
+    "func_userList_new.php": {
+      "type": "-",
+      "size": 3897,
+      "lmtime": 0,
+      "modified": false
+    },
+    "gasMeter": {},
+    "generator": {},
+    "getlocation.php": {
+      "type": "-",
+      "size": 1831,
+      "lmtime": 0,
+      "modified": false
+    },
+    "googlef96e3e432bf59b2b.html": {
+      "type": "-",
+      "size": 53,
+      "lmtime": 0,
+      "modified": false
+    },
+    "graph.php": {
+      "type": "-",
+      "size": 55340,
+      "lmtime": 0,
+      "modified": false
+    },
+    "grupargedisk": {},
+    "harmonics": {},
+    "harmonics.php": {
+      "type": "-",
+      "size": 44951,
+      "lmtime": 0,
+      "modified": false
+    },
+    "harmonicValues.php": {
+      "type": "-",
+      "size": 23392,
+      "lmtime": 0,
+      "modified": false
+    },
+    "heatMap.php": {
+      "type": "-",
+      "size": 28683,
+      "lmtime": 0,
+      "modified": false
+    },
+    "help.php": {
+      "type": "-",
+      "size": 3071,
+      "lmtime": 0,
+      "modified": false
+    },
+    "highcharts": {},
+    "images": {},
+    "inactiveSubcribers.php": {
+      "type": "-",
+      "size": 10273,
+      "lmtime": 0,
+      "modified": false
+    },
+    "inbox": {},
+    "inc": {},
+    "index": {},
+    "index.php": {
+      "type": "-",
+      "size": 6743,
+      "lmtime": 0,
+      "modified": false
+    },
+    "indexAdmin": {},
+    "index_aski.php": {
+      "type": "-",
+      "size": 1401,
+      "lmtime": 0,
+      "modified": false
+    },
+    "instantData.php": {
+      "type": "-",
+      "size": 36869,
+      "lmtime": 0,
+      "modified": false
+    },
+    "instantGraph.php": {
+      "type": "-",
+      "size": 25433,
+      "lmtime": 0,
+      "modified": false
+    },
+    "instantTable.php": {
+      "type": "-",
+      "size": 25280,
+      "lmtime": 0,
+      "modified": false
+    },
+    "instantValues.php": {
+      "type": "-",
+      "size": 26550,
+      "lmtime": 0,
+      "modified": false
+    },
+    "intro": {},
+    "io": {},
+    "io.php": {
+      "type": "-",
+      "size": 36399,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ioHistoryGraph.php": {
+      "type": "-",
+      "size": 24963,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ioSettings.php": {
+      "type": "-",
+      "size": 33826,
+      "lmtime": 0,
+      "modified": false
+    },
+    "jquery": {},
+    "jquery-ui": {},
+    "js": {},
+    "kocaeli_menu": {},
+    "k_jsondata.php": {
+      "type": "-",
+      "size": 1011,
+      "lmtime": 0,
+      "modified": false
+    },
+    "lib": {},
+    "listAdmin.php": {
+      "type": "-",
+      "size": 5276,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listAnalyzers.php": {
+      "type": "-",
+      "size": 42645,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listCommDeviceSettings.php": {
+      "type": "-",
+      "size": 17340,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listMeters.php": {
+      "type": "-",
+      "size": 45558,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listRelays.php": {
+      "type": "-",
+      "size": 39955,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listSession.php": {
+      "type": "-",
+      "size": 10316,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listTariffs.php": {
+      "type": "-",
+      "size": 13202,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listTariffsDOSB.php": {
+      "type": "-",
+      "size": 13815,
+      "lmtime": 0,
+      "modified": false
+    },
+    "listUser.php": {
+      "type": "-",
+      "size": 18152,
+      "lmtime": 0,
+      "modified": false
+    },
+    "load_profile.php": {
+      "type": "-",
+      "size": 21488,
+      "lmtime": 0,
+      "modified": false
+    },
+    "load_profile_export.php": {
+      "type": "-",
+      "size": 21721,
+      "lmtime": 0,
+      "modified": false
+    },
+    "locale": {},
+    "log": {},
+    "login.php": {
+      "type": "-",
+      "size": 31783,
+      "lmtime": 0,
+      "modified": false
+    },
+    "login2.php": {
+      "type": "-",
+      "size": 5797,
+      "lmtime": 0,
+      "modified": false
+    },
+    "maintenanceService": {},
+    "managePayments": {},
+    "managePayments.php": {
+      "type": "-",
+      "size": 34098,
+      "lmtime": 0,
+      "modified": false
+    },
+    "manual_data.php": {
+      "type": "-",
+      "size": 13636,
+      "lmtime": 0,
+      "modified": false
+    },
+    "maps": {},
+    "meterInfo.php": {
+      "type": "-",
+      "size": 23912,
+      "lmtime": 0,
+      "modified": false
+    },
+    "mobilCallBack.php": {
+      "type": "-",
+      "size": 18942,
+      "lmtime": 0,
+      "modified": false
+    },
+    "model": {},
+    "modemLog.php": {
+      "type": "-",
+      "size": 15587,
+      "lmtime": 0,
+      "modified": false
+    },
+    "monitoring": {},
+    "msc": {},
+    "multipleAction": {},
+    "my": {},
+    "mysql_backup": {},
+    "nbproject": {},
+    "newNotification.php": {
+      "type": "-",
+      "size": 10636,
+      "lmtime": 0,
+      "modified": false
+    },
+    "notification.php": {
+      "type": "-",
+      "size": 18757,
+      "lmtime": 0,
+      "modified": false
+    },
+    "OneSignalSDKUpdaterWorker.js": {
+      "type": "-",
+      "size": 65,
+      "lmtime": 0,
+      "modified": false
+    },
+    "OneSignalSDKWorker.js": {
+      "type": "-",
+      "size": 65,
+      "lmtime": 0,
+      "modified": false
+    },
+    "organizationUserAuth.php": {
+      "type": "-",
+      "size": 9158,
+      "lmtime": 0,
+      "modified": false
+    },
+    "OSFTemplate.xlsx": {
+      "type": "-",
+      "size": 23496,
+      "lmtime": 0,
+      "modified": false
+    },
+    "packetGraph.php": {
+      "type": "-",
+      "size": 10653,
+      "lmtime": 0,
+      "modified": false
+    },
+    "Page404.php": {
+      "type": "-",
+      "size": 797,
+      "lmtime": 0,
+      "modified": false
+    },
+    "parameterList.php": {
+      "type": "-",
+      "size": 8296,
+      "lmtime": 0,
+      "modified": false
+    },
+    "payment": {},
+    "paymentReturn.php": {
+      "type": "-",
+      "size": 2705,
+      "lmtime": 0,
+      "modified": false
+    },
+    "PHPExcelLib": {},
+    "phpmailer": {},
+    "powerSamples.php": {
+      "type": "-",
+      "size": 19974,
+      "lmtime": 0,
+      "modified": false
+    },
+    "pulseCounter": {},
+    "PWApp": {},
+    "remember.php": {
+      "type": "-",
+      "size": 1278,
+      "lmtime": 0,
+      "modified": false
+    },
+    "remoteSupport.php": {
+      "type": "-",
+      "size": 1582,
+      "lmtime": 0,
+      "modified": false
+    },
+    "report.php": {
+      "type": "-",
+      "size": 39820,
+      "lmtime": 0,
+      "modified": false
+    },
+    "reportM.php": {
+      "type": "-",
+      "size": 33123,
+      "lmtime": 0,
+      "modified": false
+    },
+    "reportMExport.php": {
+      "type": "-",
+      "size": 30923,
+      "lmtime": 0,
+      "modified": false
+    },
+    "requestModemAuth.php": {
+      "type": "-",
+      "size": 11803,
+      "lmtime": 0,
+      "modified": false
+    },
+    "requestMultipleModemAuth.php": {
+      "type": "-",
+      "size": 10775,
+      "lmtime": 0,
+      "modified": false
+    },
+    "request_multiple_modem_auth.php": {
+      "type": "-",
+      "size": 9877,
+      "lmtime": 0,
+      "modified": false
+    },
+    "responsive_filemanager": {},
+    "responsive_filemanager.zip": {
+      "type": "-",
+      "size": 1072655,
+      "lmtime": 0,
+      "modified": false
+    },
+    "results.json": {
+      "type": "-",
+      "size": 204709,
+      "lmtime": 0,
+      "modified": false
+    },
+    "robots.txt": {
+      "type": "-",
+      "size": 25,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ruleBased": {},
+    "rv": {},
+    "sanayi_sicil_belgesi_reminder.php": {
+      "type": "-",
+      "size": 2451,
+      "lmtime": 0,
+      "modified": false
+    },
+    "scheduledTasks": {},
+    "search.php": {
+      "type": "-",
+      "size": 27913,
+      "lmtime": 0,
+      "modified": false
+    },
+    "sendBillInfo.php": {
+      "type": "-",
+      "size": 12603,
+      "lmtime": 0,
+      "modified": false
+    },
+    "send_mail.php": {
+      "type": "-",
+      "size": 1190,
+      "lmtime": 0,
+      "modified": false
+    },
+    "sensor": {},
+    "serverInfo": {},
+    "serverPackets.php": {
+      "type": "-",
+      "size": 43947,
+      "lmtime": 0,
+      "modified": false
+    },
+    "server_settings.php": {
+      "type": "-",
+      "size": 9119,
+      "lmtime": 0,
+      "modified": false
+    },
+    "signalGraph.php": {
+      "type": "-",
+      "size": 9437,
+      "lmtime": 0,
+      "modified": false
+    },
+    "simCard": {},
+    "sp_test": {},
+    "stages.php": {
+      "type": "-",
+      "size": 23334,
+      "lmtime": 0,
+      "modified": false
+    },
+    "stat": {},
+    "subcriberExcel.php": {
+      "type": "-",
+      "size": 8980,
+      "lmtime": 0,
+      "modified": false
+    },
+    "subcriberManagement.php": {
+      "type": "-",
+      "size": 17559,
+      "lmtime": 0,
+      "modified": false
+    },
+    "suleyman": {},
+    "support": {},
+    "supportedBrowser.php": {
+      "type": "-",
+      "size": 1611,
+      "lmtime": 0,
+      "modified": false
+    },
+    "supported_devices.php": {
+      "type": "-",
+      "size": 6442,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tcpdf": {},
+    "test.php": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tooltipster": {},
+    "transformer": {},
+    "transporter": {},
+    "tx_accountSettings.php": {
+      "type": "-",
+      "size": 1178,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_addSubcribers.php": {
+      "type": "-",
+      "size": 2415,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_addVirtualMeasurePoint.php": {
+      "type": "-",
+      "size": 1067,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_commDeviceLink.php": {
+      "type": "-",
+      "size": 446,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_commDeviceListLink.php": {
+      "type": "-",
+      "size": 451,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_companySettings.php": {
+      "type": "-",
+      "size": 503,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_confirm.php": {
+      "type": "-",
+      "size": 862,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_createUser.php": {
+      "type": "-",
+      "size": 5294,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_delete.php": {
+      "type": "-",
+      "size": 3509,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteCompanyLogo.php": {
+      "type": "-",
+      "size": 445,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deletedDevice.php": {
+      "type": "-",
+      "size": 1301,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteDeviceImg.php": {
+      "type": "-",
+      "size": 991,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteDeviceType.php": {
+      "type": "-",
+      "size": 453,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteInstantValue.php": {
+      "type": "-",
+      "size": 1040,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteLoadProfile.php": {
+      "type": "-",
+      "size": 1003,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteLoadProfileExport.php": {
+      "type": "-",
+      "size": 1023,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteMeasuringDevice.php": {
+      "type": "-",
+      "size": 2690,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteParameter.php": {
+      "type": "-",
+      "size": 449,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deleteVirtualMeasurePoint.php": {
+      "type": "-",
+      "size": 322,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deviceSettings.php": {
+      "type": "-",
+      "size": 12850,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deviceSettings1.php": {
+      "type": "-",
+      "size": 11073,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_deviceSettings2.php": {
+      "type": "-",
+      "size": 2238,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_editNotification.php": {
+      "type": "-",
+      "size": 2981,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_exportAllBillInfo.php": {
+      "type": "-",
+      "size": 23677,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_exportAllBillInfoDOSB.php": {
+      "type": "-",
+      "size": 24947,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_exportmanualData.php": {
+      "type": "-",
+      "size": 5011,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_exportMeterInfo.php": {
+      "type": "-",
+      "size": 25992,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_getDeviceImg.php": {
+      "type": "-",
+      "size": 366,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_getNearestData.php": {
+      "type": "-",
+      "size": 3190,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_getNotificationUsers.php": {
+      "type": "-",
+      "size": 5169,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_getTariff.php": {
+      "type": "-",
+      "size": 2645,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_getTariffDOSB.php": {
+      "type": "-",
+      "size": 2558,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_getTariffValues.php": {
+      "type": "-",
+      "size": 370,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_inactiveSubcribers.php": {
+      "type": "-",
+      "size": 923,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_login.php": {
+      "type": "-",
+      "size": 5267,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_login_demo.php": {
+      "type": "-",
+      "size": 3010,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_logout.php": {
+      "type": "-",
+      "size": 638,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_manualData.php": {
+      "type": "-",
+      "size": 4204,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_meterInfoAll.php": {
+      "type": "-",
+      "size": 1465,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_modemLogAll.php": {
+      "type": "-",
+      "size": 8071,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_notificationSettings.php": {
+      "type": "-",
+      "size": 1540,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_organizationUserAuthSettings.php": {
+      "type": "-",
+      "size": 901,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_pwdRemind.php": {
+      "type": "-",
+      "size": 1152,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_requestMultipleAuthSettings.php": {
+      "type": "-",
+      "size": 1532,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_runStoredProc.php": {
+      "type": "-",
+      "size": 1687,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_saveCompanyLogo.php": {
+      "type": "-",
+      "size": 484,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_saveDeviceImg.php": {
+      "type": "-",
+      "size": 794,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_saveNotification.php": {
+      "type": "-",
+      "size": 1424,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_tariffDelete.php": {
+      "type": "-",
+      "size": 1022,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateAdmin.php": {
+      "type": "-",
+      "size": 1871,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateCommDeviceSettings.php": {
+      "type": "-",
+      "size": 4601,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateDeviceType.php": {
+      "type": "-",
+      "size": 1910,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateParameter.php": {
+      "type": "-",
+      "size": 1683,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateSession.php": {
+      "type": "-",
+      "size": 990,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateTariff.php": {
+      "type": "-",
+      "size": 4181,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateTariffDOSB.php": {
+      "type": "-",
+      "size": 3734,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_updateUser.php": {
+      "type": "-",
+      "size": 8908,
+      "lmtime": 0,
+      "modified": false
+    },
+    "tx_virtualMeasurePointReportExcel.php": {
+      "type": "-",
+      "size": 2955,
+      "lmtime": 0,
+      "modified": false
+    },
+    "unAuthorized.php": {
+      "type": "-",
+      "size": 810,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateAdmin.php": {
+      "type": "-",
+      "size": 7479,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateCommDeviceSettings.php": {
+      "type": "-",
+      "size": 45639,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateCommDeviceSettingsD.php": {
+      "type": "-",
+      "size": 3641,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateDeviceType.php": {
+      "type": "-",
+      "size": 10584,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateParameter.php": {
+      "type": "-",
+      "size": 9706,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateTariff.php": {
+      "type": "-",
+      "size": 39912,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateTariffDOSB.php": {
+      "type": "-",
+      "size": 39913,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateUser.php": {
+      "type": "-",
+      "size": 44660,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateVirtaulMeasurePoint.php": {
+      "type": "-",
+      "size": 363,
+      "lmtime": 0,
+      "modified": false
+    },
+    "updateVirtualMeasurePoint.php": {
+      "type": "-",
+      "size": 332,
+      "lmtime": 0,
+      "modified": false
+    },
+    "update_alarm_fuel_level.php": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "uploads": {},
+    "uploadsthumbnail": {},
+    "userCommDeviceAuthSettings.php": {
+      "type": "-",
+      "size": 12293,
+      "lmtime": 0,
+      "modified": false
+    },
+    "userDeviceAuthSettings.php": {
+      "type": "-",
+      "size": 12402,
+      "lmtime": 0,
+      "modified": false
+    },
+    "userProfile": {},
+    "virtualMeasurePoint.php": {
+      "type": "-",
+      "size": 11207,
+      "lmtime": 0,
+      "modified": false
+    },
+    "virtualMeasurePointGraph.php": {
+      "type": "-",
+      "size": 27546,
+      "lmtime": 0,
+      "modified": false
+    },
+    "virtualMeasurePointReport.php": {
+      "type": "-",
+      "size": 28288,
+      "lmtime": 0,
+      "modified": false
+    },
+    "Web": {},
+    "widget": {},
+    "ws": {},
+    "Yeni klasör": {},
+    "yunus": {},
+    "__db_events": {}
   },
   "$version": 1
 }
